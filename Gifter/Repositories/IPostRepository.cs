@@ -9,6 +9,7 @@ namespace Gifter.Repositories
         void Delete(int id);
         List<Post> GetAll();
         List<Post> GetAllWithComments();
+        Post GetPostByIdWithComments(int id);
         Post GetById(int id);
         void Update(Post post);
     }
