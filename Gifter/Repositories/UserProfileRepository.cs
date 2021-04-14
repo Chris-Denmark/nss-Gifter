@@ -29,7 +29,7 @@ namespace Gifter.Repositories
                     {
                         posts.Add(new UserProfile()
                         {
-                            Id = DbUtils.GetInt(reader, "PostId"),
+                            Id = DbUtils.GetInt(reader, "Id"),
                             Name = DbUtils.GetString(reader, "Name"),
                             Email = DbUtils.GetString(reader, "Email"),
                             ImageUrl = DbUtils.GetString(reader, "ImageUrl"),
